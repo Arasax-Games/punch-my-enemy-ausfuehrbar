@@ -3,16 +3,16 @@
 Ein alberner Slapstick-Clicker: Fäuste statt Kekse, Beulen statt Blut.
 Hau auf Generalissimo Bombastus von Größenwahn – oder auf ein eigenes Bild – und kauf immer absurdere Geräte, die für dich weiterhauen.
 
-**Version 0.7.0** · Deutsch und Englisch · gebaut mit Godot 4.7.1 aus
-[Arasax-Games/Punch-your-Enemy](https://github.com/Arasax-Games/Punch-your-Enemy) (Stand `0156886`).
+**Version 0.7.1** · Deutsch und Englisch · gebaut mit Godot 4.7.1 aus
+[Arasax-Games/Punch-your-Enemy](https://github.com/Arasax-Games/Punch-your-Enemy) (Stand `c126788`).
 
 ## Herunterladen
 
 | System | Datei | Größe |
 |---|---|---|
-| Windows 10/11 (64 Bit) | [PunchYourEnemy-0.7.0-Windows.zip](downloads/PunchYourEnemy-0.7.0-Windows.zip) | 39 MB |
-| macOS 10.13+ (Intel und Apple Silicon) | [PunchYourEnemy-0.7.0-macOS.zip](downloads/PunchYourEnemy-0.7.0-macOS.zip) | 62 MB |
-| Linux (64 Bit) | [PunchYourEnemy-0.7.0-Linux.tar.gz](downloads/PunchYourEnemy-0.7.0-Linux.tar.gz) | 29 MB |
+| Windows 10/11 (64 Bit) | [PunchYourEnemy-0.7.1-Windows.zip](downloads/PunchYourEnemy-0.7.1-Windows.zip) | 39 MB |
+| macOS 10.13+ (Intel und Apple Silicon) | [PunchYourEnemy-0.7.1-macOS.zip](downloads/PunchYourEnemy-0.7.1-macOS.zip) | 62 MB |
+| Linux (64 Bit) | [PunchYourEnemy-0.7.1-Linux.tar.gz](downloads/PunchYourEnemy-0.7.1-Linux.tar.gz) | 29 MB |
 
 Auf GitHub die Datei anklicken und dann **„Download raw file“** (Pfeil-Symbol rechts) wählen.
 
@@ -33,7 +33,7 @@ Auf GitHub die Datei anklicken und dann **„Download raw file“** (Pfeil-Symbo
 
 ### Linux
 ```bash
-tar -xzf PunchYourEnemy-0.7.0-Linux.tar.gz
+tar -xzf PunchYourEnemy-0.7.1-Linux.tar.gz
 ./PunchYourEnemy.x86_64
 ```
 Benötigt OpenGL 3.3 (jede halbwegs aktuelle Grafikkarte).
@@ -56,6 +56,7 @@ Sprache, Lautstärke und weitere Einstellungen: **Menü** oben rechts.
   - Windows: `%APPDATA%\PunchYourEnemy`
   - macOS: `~/Library/Application Support/PunchYourEnemy`
   - Linux: `~/.local/share/PunchYourEnemy`
+  - Ab Version 0.7.1 beginnt das Spiel immer frisch: Ein älterer Spielstand aus der Entwicklung wird dort als `old-dev-savegame.json` beiseitegelegt (kann gelöscht werden). Neu anfangen geht jederzeit über **Menü → Alles löschen und neu anfangen**.
 - **Eigene Bilder bleiben auf deinem Rechner** – es wird nichts hochgeladen. Bitte nur Bilder nehmen, bei denen alle Beteiligten Spaß verstehen.
 - Diese Versionen laufen **ohne Steam** (keine Steam-Erfolge/Bestenlisten). Die Steam-Fassung folgt über Steamworks.
 
@@ -63,13 +64,13 @@ Sprache, Lautstärke und weitere Einstellungen: **Menü** oben rechts.
 
 # Punch your Enemy – playable builds (English)
 
-A silly slapstick clicker: fists instead of cookies, bumps instead of blood. Version 0.7.0, German and English (the game follows your system language; switch via **Menu → Sprache / Language**).
+A silly slapstick clicker: fists instead of cookies, bumps instead of blood. Version 0.7.1, German and English (the game follows your system language; switch via **Menu → Sprache / Language**).
 
 - **Windows:** unzip, run `PunchYourEnemy.exe`. If SmartScreen appears: *More info → Run anyway* (the build is not code-signed yet).
 - **macOS:** unzip, move the app to Applications, then *right-click → Open → Open* the first time (not notarized).
-- **Linux:** `tar -xzf PunchYourEnemy-0.7.0-Linux.tar.gz && ./PunchYourEnemy.x86_64` (OpenGL 3.3).
+- **Linux:** `tar -xzf PunchYourEnemy-0.7.1-Linux.tar.gz && ./PunchYourEnemy.x86_64` (OpenGL 3.3).
 
-Your own images never leave your computer. These builds run without Steam.
+Since 0.7.1 the game always starts fresh; an older development save is moved aside as `old-dev-savegame.json`. Your own images never leave your computer. These builds run without Steam.
 
 ## Lizenzen / Licenses
 
